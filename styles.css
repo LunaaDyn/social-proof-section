@@ -1,0 +1,118 @@
+body {
+	font-family: "League Spartan";
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 70px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 56px;
+	color: #512051;
+	letter-spacing: -2px;
+	max-width: 445px;
+}
+
+.title-paragraph {
+	font-weight: 500;
+	font-size: 19px;
+	color: #927b91;
+	letter-spacing: -0.63px;
+	max-width: 445px;
+}
+
+.rating-text {
+	font-weight: 700;
+	font-size: 17px;
+	color: #512051;
+}
+
+.comment-paragraph {
+	font-weight: 500;
+	font-size: 17px;
+	color: white;
+	letter-spacing: -0.3px;
+}
+
+.text-name {
+	font-weight: 700;
+	font-size: 17px;
+	color: white;
+}
+
+.text-tag {
+	font-weight: 400;
+	font-size: 17px;
+	color: #ee69a4;
+}
+
+img {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+.comment {
+	background-color: #512051;
+	border-radius: 8px;
+	padding: 24px;
+}
+
+.main-comments {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
+
+.comment-paragraph {
+	max-width: 286px;
+}
+
+.comment-profile {
+	display: flex;
+	flex-direction: row;
+	gap: 24px;
+}
+
+.profile-text {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+.main-top {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 220px;
+}
+
+.top-ratings {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.rating {
+	background-color: #f7f2f7;
+	border-radius: 8px;
+	padding: 18px 32px;
+	display: flex;
+	flex-direction: row;
+	gap: 32px;
+}
+
+.rating-stars {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
